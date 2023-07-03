@@ -11,3 +11,4 @@
     const persona = fullName("Fania", "torres", true);
     console.log(persona);
 })();
+//# sourceMappingURL=arg-default.js.map

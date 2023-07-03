@@ -9,3 +9,4 @@
     const persona = fullName("Fania");
     console.log(persona);
 })();
+//# sourceMappingURL=args-optional.js.map
