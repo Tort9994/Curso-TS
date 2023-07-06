@@ -1,7 +1,4 @@
 (() => {
-
-
-
     class Avenger {
         // private name: string = "Scott no se que"
         // public  team: string
@@ -13,13 +10,13 @@
 
         constructor(
             private name: string, 
-            private t: string,  
+            private team: string,  
             public r?: string,  
             ...rest: (number | string)[]
             ){
         }
         public bio(){
-            return`${this.name } ${ this.t}`
+            return`${this.name } ${ this.team}`
         }
     }
 
